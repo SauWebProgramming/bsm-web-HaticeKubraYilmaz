@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MASTER.master.cs" Inherits="web_odev.MASTER" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="images/BrightSide.css" type="text/css" />
+
+</head>
+<body>
+    <form id="form1" runat="server">
+<div id="wrap">
+  <div id="header">
+    <h1 id="logo">MOBILYA SITESI</h1>
+    <h2 id="slogan">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; web programlama projesi&nbsp;</h2>
+      
+    <ul>
+      <li id="current"><a href="GIRIS-MASTER.aspx"><span>Giris</span></a></li>
+      <li><a href="kayit-MASTER.aspx"><span>kayit</span></a></li>
+      <li><a href="#"><span>Downloads</span></a></li>
+      <li><a href="#">0</a></li>
+    </ul>
+  </div>
+  <div id="content-wrap"> 
+      <h1>B171200554 - B181200049</h1>
+
+      <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+      </asp:ContentPlaceHolder>
+    </div>
+  <div id="footer">
+    <div class="footer-left">
+      <p class="align-left"> &nbsp;</p>
+    </div>
+    <div class="footer-right">
+      <p class="align-right"> <a href="#">Home</a>&nbsp;|&nbsp; <a href="#">SiteMap</a>&nbsp;|&nbsp; <a href="#">RSS Feed</a> </p>
+    </div>
+  &nbsp;</div>
+</div>
+    </form>
+</body>
+
+</html>
